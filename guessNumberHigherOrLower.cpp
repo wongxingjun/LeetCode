@@ -11,7 +11,8 @@ public:
         int l=1,r=n;
         while(l<r)
         {
-            int mid=l+(r-l)/2;
+            //l+r may causes a overflow, so l+(r-l)/2 or use long long type will be safe.
+            int mid=l+(r-l)/2; 
             int g=guess(mid);
             if(g==0)
                 return mid;
