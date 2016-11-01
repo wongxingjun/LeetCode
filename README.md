@@ -1,2 +1,2 @@
-#LeetCode Answers
-Answers to problems published on Online Judge [leetcode](https://oj.leetcode.com)
+#LeetCode Solutions
+Solutions to problems published on Online Judge [leetcode](https://oj.leetcode.com)
